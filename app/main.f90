@@ -1,7 +1,6 @@
 program main
     use, intrinsic :: iso_fortran_env
     use :: json_module
-    use :: stdlib_logger
     use :: ex_io
     implicit none
 
