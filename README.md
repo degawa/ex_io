@@ -51,3 +51,6 @@ fpm run --compiler ifort --flag "/fpp /D_R16P"
 ## 実行結果
 
 ![](dist.png)
+
+## ブランチ
+ロギングが冗長でコードが読みにくいと思われる場合は，no_loggingブランチを参照のこと．
