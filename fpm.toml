@@ -1,0 +1,17 @@
+name = "ex_io"
+version = "0.1.0"
+license = "MIT"
+author = "Tomohiro Degawa"
+copyright = "Copyright 2021, Tomohiro Degawa"
+description = "A Toy Program using Fortran OSS, from JSON input to VTK output"
+
+[build]
+auto-executables = true
+
+[install]
+library = false
+
+[dependencies]
+stdlib = {git="https://github.com/fortran-lang/stdlib", branch="stdlib-fpm"}
+json-fortran = {git="https://github.com/jacobwilliams/json-fortran"}
+VTKFortran = {git="https://github.com/degawa/VTKFortran", branch="vtkfortran-fpm"}
