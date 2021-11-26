@@ -3,3 +3,5 @@
 build
 
 *.vtr
+*.mod
+*.smod
